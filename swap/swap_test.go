@@ -6,7 +6,9 @@ import (
 
 func tSwap(in []int, out int, t *testing.T) {
 	f := Swap
-	ans := f(in)
+    mod := make([]int, len(in))
+    copy(mod, in)
+	ans := f(mod)
 	if ans != out {
 		t.Errorf("Swap(%v) = %v, wanted %v", in, ans, out)
 	}
