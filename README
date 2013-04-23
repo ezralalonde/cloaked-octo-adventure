@@ -1,1 +1,13 @@
 A short program that will "swap" train cars until it is ordered.
+
+Reads input, swaps adjacent train places and pronts the optimal number of swaps to order all cars on the train.
+
+The first line of input N is the number of trains to be read.
+
+For each of the N trains, two further lines of input are read.
+    - A number C that is the length of the train
+    - C different integers, representing the train cars
+
+Adjacent cars will be swapped until the the train cars are sorted according to their integer values.
+
+There will be M lines of output, each representing the swaps performed.
